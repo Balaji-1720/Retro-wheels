@@ -1,0 +1,66 @@
+body{
+background-image: url(/properties/2494705.jpg);
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+color:rgb(11, 11, 11);
+margin: 0;
+}
+
+
+.header{
+
+background-color:transparent ;
+height: 70px;
+display: flex;
+justify-content: space-evenly;
+font-size: 25px;
+margin-top: 30px;
+
+
+}
+
+.text3{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 30px;
+    margin-top:-2px;
+}
+.text1{
+font-family: "Rajdhani", sans-serif;
+}
+
+.text2{
+font-family: "Rajdhani", sans-serif;
+}
+
+.text4{
+font-family: "Rajdhani", sans-serif;
+}
+
+.text5{
+font-family: "Rajdhani", sans-serif;
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+
+    color: aliceblue;
+    /* text-decoration: underline; */
+
+}
+
+@media screen and (max-width:600px){
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+}

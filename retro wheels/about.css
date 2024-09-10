@@ -1,0 +1,60 @@
+body{
+ background-image: url(/properties/bgi4.jpg);
+ background-size: 100% 100%;
+ margin: 0;
+ background-attachment: fixed;
+ 
+}
+
+.box{
+position: relative;
+/* background-color: #2E073F ; */
+
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction:column;
+color:rgb(3, 3, 3);
+font-family: "Rajdhani", sans-serif;
+justify-content:center;
+flex-wrap: nowrap;
+align-items: center;
+position: relative;
+bottom: 140px;
+left:85px;
+}
+.design{
+    width: 850px;
+    height: fit-content;
+    border: 3px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.heading{
+   width: 50vw;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .box{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+i{
+    color: white;
+    text-indent: 10px;
+}
+
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+
+

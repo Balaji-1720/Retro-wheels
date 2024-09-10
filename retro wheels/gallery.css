@@ -1,0 +1,126 @@
+body{
+
+    /* background-color: #d7d0cc; */
+background-image:linear-gradient(to bottom right,#ABECD6,#FBED96) ;
+
+}
+.container{
+     
+         position: relative;
+     	display: flex;
+     	flex-wrap: wrap;
+     	justify-content: space-evenly;
+     	gap:10px; 
+        font-family: "Rajdhani", sans-serif;
+         
+
+}
+
+
+
+.img1{
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+}
+
+.img2{
+
+    display: flex;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    flex-direction: column;
+
+
+}
+.img3{
+
+    display: flex;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    flex-direction: column;
+    
+
+}
+.img4{
+
+    display: flex;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    flex-direction: column;
+    
+
+}
+.img5{
+    display: flex;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+.img6{
+
+    display: flex;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    flex-direction: column;
+
+}
+.img7{
+
+    display: flex;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+
+.one:hover{
+    transform: scale(0.95);
+    transition: 2s;
+}
+
+.two:hover{
+    transform: scale(0.95);
+    transition: 2s;
+}
+
+.three:hover{
+    transform: scale(0.95);
+    transition: 2s;
+}
+
+.four:hover{
+    transform: scale(0.95);
+    transition: 2s;
+}
+
+.five:hover{
+    transform: scale(0.95);
+    transition: 2s;
+}
+
+.six:hover{
+    transform: scale(0.95);
+    transition: 2s;
+}
+
+.seven:hover{
+    transform: scale(0.95);
+    transition: 2s;
+}
+
+
+

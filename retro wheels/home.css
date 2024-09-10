@@ -1,0 +1,69 @@
+body{
+background-image:linear-gradient(to bottom right,#ABECD6,#FBED96) ;
+/* background: linear-gradient(to bottom right,#0D61EC,#DE0F82); */
+/* background: linear-gradient(to bottom right,#3D0C11,#D80032); */
+background-size: 100vw 100vh;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-size: 25px;
+    font-family: "Rajdhani", sans-serif;
+
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    width:100vw;
+
+}
+
+.outercard1{
+    background-color: transparent;
+    width: 500px;
+    height: 350px;
+    perspective: 1000px;
+}
+
+.card1{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   transition: transform 0.6s;
+   transform-style: preserve-3d;
+
+}
+
+.outercard1:hover .card1 {
+    transform: rotateY(180deg);
+}
+
+.front1,.back1{
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+
+.front1{
+    background:linear-gradient(to bottom right,orange,pink);
+    color: white;
+}
+
+.back1{
+    background: linear-gradient(to bottom right,blue,skyblue);
+    color: white;
+    transform: rotateY(180deg);
+
+}
